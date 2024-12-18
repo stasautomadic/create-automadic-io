@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/SettingsPanel.jsx", "pages/profile.jsx", "pages/media.jsx", "pages/index.jsx", "pages/database.jsx", "pages/_document.jsx", "components/withAuth.jsx", "components/Sidebar.jsx", "components/Main.jsx", "components/Header.jsx", "components/CreateButton.jsx", "components/Detail.jsx", "components/SettingsPanel - Copy.jsx", "utility/setTextStyle.jsx", "utility/ensureElementVisibility.js", "utility/setSlideTransition.js", "utility/finishVideo.jsx", "utility/setPropertyValue.js", "utility/useWindowWidth.js", "utility/deepClone.js", "utility/createSlide.js", "utility/addSlide.js", "utility/api.js"],
+  "exclude": ["node_modules"]
+}
